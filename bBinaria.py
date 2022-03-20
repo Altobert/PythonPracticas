@@ -1,7 +1,9 @@
 
 def busqueda_binaria(lista , elemento):
     menor=0
+    print("menor",str(menor))
     mayor=len(lista)-1
+    print("mayor",str(mayor))
 
     #Se tiene que mover entre los margenes
     # de mayor y menor 
@@ -18,7 +20,7 @@ def busqueda_binaria(lista , elemento):
             return medio
     return None
         
-mi_lista = [1, 3, 5, 7, 9]
+mi_lista = [1, 3, 5, 7, 9, 10, 14, 20]
 
 print("resultado a :",str(busqueda_binaria(mi_lista, 3)))
 #print("resultado b: ",str(busqueda_binaria(mi_lista, -3)))
