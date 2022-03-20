@@ -14,7 +14,7 @@ def binary_search(arr, x, n):
             return mid
     return -1
     
-arr = [ 2, 3, 4, 1, 5 ]
+arr = [ 2, 3, 4, 10, 15 ]
 x = 10
 n = len(arr)
 result = binary_search(arr, x ,n)
